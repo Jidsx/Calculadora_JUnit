@@ -2,6 +2,13 @@ package calculadora.calculadora;
 
 import java.text.DecimalFormat;
 
+/**
+ *
+ * @author Jean Israel
+ * @version 1.0
+ * @since Release 1.0 da aplicação
+ */
+
 public class CalculadoraMain {
 
     public static void main(String[] args) {
@@ -93,7 +100,7 @@ public class CalculadoraMain {
         
         Divisao div = new Divisao();
         
-        //Cenário de teste 1: divisao de dois valores, Resultado esperado: 0.42
+        //Cenário de teste 1: divisao de dois valores, Resultado esperado: 0.43
         double divi = div.divisao(3, 7);
         System.out.println(new DecimalFormat("#.##").format(divi));
         
@@ -101,7 +108,7 @@ public class CalculadoraMain {
         divi = div.divisao(3, 0);
         System.out.println(new DecimalFormat("#.##").format(divi));
 
-        //Cenário de teste 3: divisao de dois valores sendo ambos zero, Resultado esperado: ?
+        //Cenário de teste 3: divisao de dois valores sendo ambos zero, Resultado esperado: Nan
         divi = div.divisao(0, 0);
         System.out.println(new DecimalFormat("#.##").format(divi));
 
