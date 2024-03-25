@@ -1,4 +1,6 @@
 # Calculadora_JUnit
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
 Calculadora simples feito em Java para aula Qualidade e Testes de Software, acompanhada de testes unitários utilizando o framework JUnit. A calculadora é capaz de realizar operações básicas como adição, subtração, multiplicação e divisão.
 
 ## Pré-requisitos:
